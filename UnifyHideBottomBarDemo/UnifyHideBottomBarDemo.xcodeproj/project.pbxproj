@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52EFEA411F58F96B00F8C86F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFEA401F58F96B00F8C86F /* AppDelegate.swift */; };
+		52EFEA431F58F96B00F8C86F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFEA421F58F96B00F8C86F /* ViewController.swift */; };
+		52EFEA461F58F96B00F8C86F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EFEA441F58F96B00F8C86F /* Main.storyboard */; };
+		52EFEA481F58F96B00F8C86F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EFEA471F58F96B00F8C86F /* Assets.xcassets */; };
+		52EFEA4B1F58F96B00F8C86F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EFEA491F58F96B00F8C86F /* LaunchScreen.storyboard */; };
+		52EFEA561F58F96B00F8C86F /* UnifyHideBottomBarDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFEA551F58F96B00F8C86F /* UnifyHideBottomBarDemoTests.swift */; };
+		52EFEA611F58F96B00F8C86F /* UnifyHideBottomBarDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFEA601F58F96B00F8C86F /* UnifyHideBottomBarDemoUITests.swift */; };
+		52EFEA6F1F58F98500F8C86F /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFEA6E1F58F98500F8C86F /* TabbarViewController.swift */; };
+		52EFEA711F58FA5000F8C86F /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFEA701F58FA5000F8C86F /* OtherViewController.swift */; };
+		52EFEA731F58FCA300F8C86F /* UnifyHideBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFEA721F58FCA300F8C86F /* UnifyHideBottomBar.swift */; };
+		52EFEA751F59016D00F8C86F /* BaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFEA741F59016D00F8C86F /* BaseNavViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52EFEA521F58F96B00F8C86F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52EFEA351F58F96B00F8C86F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52EFEA3C1F58F96B00F8C86F;
+			remoteInfo = UnifyHideBottomBarDemo;
+		};
+		52EFEA5D1F58F96B00F8C86F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52EFEA351F58F96B00F8C86F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52EFEA3C1F58F96B00F8C86F;
+			remoteInfo = UnifyHideBottomBarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52EFEA3D1F58F96B00F8C86F /* UnifyHideBottomBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnifyHideBottomBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EFEA401F58F96B00F8C86F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52EFEA421F58F96B00F8C86F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52EFEA451F58F96B00F8C86F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52EFEA471F58F96B00F8C86F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52EFEA4A1F58F96B00F8C86F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52EFEA4C1F58F96B00F8C86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EFEA511F58F96B00F8C86F /* UnifyHideBottomBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnifyHideBottomBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EFEA551F58F96B00F8C86F /* UnifyHideBottomBarDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifyHideBottomBarDemoTests.swift; sourceTree = "<group>"; };
+		52EFEA571F58F96B00F8C86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EFEA5C1F58F96B00F8C86F /* UnifyHideBottomBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnifyHideBottomBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EFEA601F58F96B00F8C86F /* UnifyHideBottomBarDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifyHideBottomBarDemoUITests.swift; sourceTree = "<group>"; };
+		52EFEA621F58F96B00F8C86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EFEA6E1F58F98500F8C86F /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		52EFEA701F58FA5000F8C86F /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		52EFEA721F58FCA300F8C86F /* UnifyHideBottomBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnifyHideBottomBar.swift; path = UnifyHideBottomBarDemo/UnifyHideBottomBar.swift; sourceTree = SOURCE_ROOT; };
+		52EFEA741F59016D00F8C86F /* BaseNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseNavViewController.swift; path = ../BaseNavViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52EFEA3A1F58F96B00F8C86F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EFEA4E1F58F96B00F8C86F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EFEA591F58F96B00F8C86F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52EFEA341F58F96B00F8C86F = {
+			isa = PBXGroup;
+			children = (
+				52EFEA3F1F58F96B00F8C86F /* UnifyHideBottomBarDemo */,
+				52EFEA541F58F96B00F8C86F /* UnifyHideBottomBarDemoTests */,
+				52EFEA5F1F58F96B00F8C86F /* UnifyHideBottomBarDemoUITests */,
+				52EFEA3E1F58F96B00F8C86F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52EFEA3E1F58F96B00F8C86F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52EFEA3D1F58F96B00F8C86F /* UnifyHideBottomBarDemo.app */,
+				52EFEA511F58F96B00F8C86F /* UnifyHideBottomBarDemoTests.xctest */,
+				52EFEA5C1F58F96B00F8C86F /* UnifyHideBottomBarDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52EFEA3F1F58F96B00F8C86F /* UnifyHideBottomBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				52EFEA401F58F96B00F8C86F /* AppDelegate.swift */,
+				52EFEA421F58F96B00F8C86F /* ViewController.swift */,
+				52EFEA6E1F58F98500F8C86F /* TabbarViewController.swift */,
+				52EFEA701F58FA5000F8C86F /* OtherViewController.swift */,
+				52EFEA761F5906B700F8C86F /* UnifyHideBottomBar */,
+				52EFEA441F58F96B00F8C86F /* Main.storyboard */,
+				52EFEA471F58F96B00F8C86F /* Assets.xcassets */,
+				52EFEA491F58F96B00F8C86F /* LaunchScreen.storyboard */,
+				52EFEA4C1F58F96B00F8C86F /* Info.plist */,
+			);
+			path = UnifyHideBottomBarDemo;
+			sourceTree = "<group>";
+		};
+		52EFEA541F58F96B00F8C86F /* UnifyHideBottomBarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				52EFEA551F58F96B00F8C86F /* UnifyHideBottomBarDemoTests.swift */,
+				52EFEA571F58F96B00F8C86F /* Info.plist */,
+			);
+			path = UnifyHideBottomBarDemoTests;
+			sourceTree = "<group>";
+		};
+		52EFEA5F1F58F96B00F8C86F /* UnifyHideBottomBarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52EFEA601F58F96B00F8C86F /* UnifyHideBottomBarDemoUITests.swift */,
+				52EFEA621F58F96B00F8C86F /* Info.plist */,
+			);
+			path = UnifyHideBottomBarDemoUITests;
+			sourceTree = "<group>";
+		};
+		52EFEA761F5906B700F8C86F /* UnifyHideBottomBar */ = {
+			isa = PBXGroup;
+			children = (
+				52EFEA721F58FCA300F8C86F /* UnifyHideBottomBar.swift */,
+				52EFEA741F59016D00F8C86F /* BaseNavViewController.swift */,
+			);
+			path = UnifyHideBottomBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52EFEA3C1F58F96B00F8C86F /* UnifyHideBottomBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EFEA651F58F96B00F8C86F /* Build configuration list for PBXNativeTarget "UnifyHideBottomBarDemo" */;
+			buildPhases = (
+				52EFEA391F58F96B00F8C86F /* Sources */,
+				52EFEA3A1F58F96B00F8C86F /* Frameworks */,
+				52EFEA3B1F58F96B00F8C86F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnifyHideBottomBarDemo;
+			productName = UnifyHideBottomBarDemo;
+			productReference = 52EFEA3D1F58F96B00F8C86F /* UnifyHideBottomBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52EFEA501F58F96B00F8C86F /* UnifyHideBottomBarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EFEA681F58F96B00F8C86F /* Build configuration list for PBXNativeTarget "UnifyHideBottomBarDemoTests" */;
+			buildPhases = (
+				52EFEA4D1F58F96B00F8C86F /* Sources */,
+				52EFEA4E1F58F96B00F8C86F /* Frameworks */,
+				52EFEA4F1F58F96B00F8C86F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52EFEA531F58F96B00F8C86F /* PBXTargetDependency */,
+			);
+			name = UnifyHideBottomBarDemoTests;
+			productName = UnifyHideBottomBarDemoTests;
+			productReference = 52EFEA511F58F96B00F8C86F /* UnifyHideBottomBarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52EFEA5B1F58F96B00F8C86F /* UnifyHideBottomBarDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EFEA6B1F58F96B00F8C86F /* Build configuration list for PBXNativeTarget "UnifyHideBottomBarDemoUITests" */;
+			buildPhases = (
+				52EFEA581F58F96B00F8C86F /* Sources */,
+				52EFEA591F58F96B00F8C86F /* Frameworks */,
+				52EFEA5A1F58F96B00F8C86F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52EFEA5E1F58F96B00F8C86F /* PBXTargetDependency */,
+			);
+			name = UnifyHideBottomBarDemoUITests;
+			productName = UnifyHideBottomBarDemoUITests;
+			productReference = 52EFEA5C1F58F96B00F8C86F /* UnifyHideBottomBarDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52EFEA351F58F96B00F8C86F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BaQiWL;
+				TargetAttributes = {
+					52EFEA3C1F58F96B00F8C86F = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					52EFEA501F58F96B00F8C86F = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52EFEA3C1F58F96B00F8C86F;
+					};
+					52EFEA5B1F58F96B00F8C86F = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52EFEA3C1F58F96B00F8C86F;
+					};
+				};
+			};
+			buildConfigurationList = 52EFEA381F58F96B00F8C86F /* Build configuration list for PBXProject "UnifyHideBottomBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52EFEA341F58F96B00F8C86F;
+			productRefGroup = 52EFEA3E1F58F96B00F8C86F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52EFEA3C1F58F96B00F8C86F /* UnifyHideBottomBarDemo */,
+				52EFEA501F58F96B00F8C86F /* UnifyHideBottomBarDemoTests */,
+				52EFEA5B1F58F96B00F8C86F /* UnifyHideBottomBarDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52EFEA3B1F58F96B00F8C86F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EFEA4B1F58F96B00F8C86F /* LaunchScreen.storyboard in Resources */,
+				52EFEA481F58F96B00F8C86F /* Assets.xcassets in Resources */,
+				52EFEA461F58F96B00F8C86F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EFEA4F1F58F96B00F8C86F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EFEA5A1F58F96B00F8C86F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52EFEA391F58F96B00F8C86F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EFEA731F58FCA300F8C86F /* UnifyHideBottomBar.swift in Sources */,
+				52EFEA431F58F96B00F8C86F /* ViewController.swift in Sources */,
+				52EFEA711F58FA5000F8C86F /* OtherViewController.swift in Sources */,
+				52EFEA411F58F96B00F8C86F /* AppDelegate.swift in Sources */,
+				52EFEA6F1F58F98500F8C86F /* TabbarViewController.swift in Sources */,
+				52EFEA751F59016D00F8C86F /* BaseNavViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EFEA4D1F58F96B00F8C86F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EFEA561F58F96B00F8C86F /* UnifyHideBottomBarDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EFEA581F58F96B00F8C86F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EFEA611F58F96B00F8C86F /* UnifyHideBottomBarDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52EFEA531F58F96B00F8C86F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52EFEA3C1F58F96B00F8C86F /* UnifyHideBottomBarDemo */;
+			targetProxy = 52EFEA521F58F96B00F8C86F /* PBXContainerItemProxy */;
+		};
+		52EFEA5E1F58F96B00F8C86F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52EFEA3C1F58F96B00F8C86F /* UnifyHideBottomBarDemo */;
+			targetProxy = 52EFEA5D1F58F96B00F8C86F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52EFEA441F58F96B00F8C86F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52EFEA451F58F96B00F8C86F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52EFEA491F58F96B00F8C86F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52EFEA4A1F58F96B00F8C86F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52EFEA631F58F96B00F8C86F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52EFEA641F58F96B00F8C86F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52EFEA661F58F96B00F8C86F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UnifyHideBottomBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YZY.UnifyHideBottomBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		52EFEA671F58F96B00F8C86F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UnifyHideBottomBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YZY.UnifyHideBottomBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		52EFEA691F58F96B00F8C86F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UnifyHideBottomBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YZY.UnifyHideBottomBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnifyHideBottomBarDemo.app/UnifyHideBottomBarDemo";
+			};
+			name = Debug;
+		};
+		52EFEA6A1F58F96B00F8C86F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UnifyHideBottomBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YZY.UnifyHideBottomBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnifyHideBottomBarDemo.app/UnifyHideBottomBarDemo";
+			};
+			name = Release;
+		};
+		52EFEA6C1F58F96B00F8C86F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = UnifyHideBottomBarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YZY.UnifyHideBottomBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UnifyHideBottomBarDemo;
+			};
+			name = Debug;
+		};
+		52EFEA6D1F58F96B00F8C86F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = UnifyHideBottomBarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YZY.UnifyHideBottomBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UnifyHideBottomBarDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52EFEA381F58F96B00F8C86F /* Build configuration list for PBXProject "UnifyHideBottomBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EFEA631F58F96B00F8C86F /* Debug */,
+				52EFEA641F58F96B00F8C86F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EFEA651F58F96B00F8C86F /* Build configuration list for PBXNativeTarget "UnifyHideBottomBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EFEA661F58F96B00F8C86F /* Debug */,
+				52EFEA671F58F96B00F8C86F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52EFEA681F58F96B00F8C86F /* Build configuration list for PBXNativeTarget "UnifyHideBottomBarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EFEA691F58F96B00F8C86F /* Debug */,
+				52EFEA6A1F58F96B00F8C86F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52EFEA6B1F58F96B00F8C86F /* Build configuration list for PBXNativeTarget "UnifyHideBottomBarDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EFEA6C1F58F96B00F8C86F /* Debug */,
+				52EFEA6D1F58F96B00F8C86F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52EFEA351F58F96B00F8C86F /* Project object */;
+}
